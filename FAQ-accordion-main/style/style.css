@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(275, 100%, 97%)
+}
+h4:hover{
+    cursor: pointer;
+    color: hsl(293, 74%, 43%);
+}
+p{
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    opacity: 0.5;
+}
+h4{
+   font-family: "Work Sans", sans-serif;
+}
+ .imgm{
+    width: 100%;
+    height: 50vh;
+background: url('../assets/images/background-pattern-mobile.svg') no-repeat;
+counter-reset: none;
+background-size: cover;
+ }
+
+.faq{
+    background-color: white;
+    width: 390px;
+    
+    border-radius: 10px;
+     position: absolute; 
+  left: center;
+  top: 35vh;
+  /* padding-bottom: 20px; */
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 40px;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 10px;
+
+    
+}
+.faqall{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+     padding-bottom: 40px;
+}
+.faqs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 10px;
+}
+.newclass{
+    display: block;
+}
+
+.faqall button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+ .imgm{
+    width: 100%;
+    height: 50vh;
+background: url('../assets/images/background-pattern-desktop.svg') no-repeat;
+counter-reset: none;
+background-size: cover;
+ }
+
+
+}
